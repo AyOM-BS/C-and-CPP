@@ -1,8 +1,8 @@
-#define _CRT_SECURE_NO_WARNINGS
+//#define _CRT_SECURE_NO_WARNINGS
 
 //给定一个整数数组 nums，将数组中的元素向右轮转 k 个位置，其中 k 是非负数。
 //你可以使用空间复杂度为 O(1) 的 原地 算法解决这个问题吗？
-#include <stdio.h>
+//#include <stdio.h>
 //approach 1
 //int main()
 //{

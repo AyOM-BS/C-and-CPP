@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bcb7b823-7a19-4425-9a78-4371027af0b9}</ProjectGuid>
-    <RootNamespace>suanfa</RootNamespace>
+    <ProjectGuid>{35f002d7-0f91-44e5-83e5-6a9df5c4c539}</ProjectGuid>
+    <RootNamespace>seqlist</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,11 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="disappered number.cpp" />
-    <ClCompile Include="pack array.cpp" />
-    <ClCompile Include="remove same number.cpp" />
-    <ClCompile Include="remove specific number.cpp" />
-    <ClCompile Include="revolve array.cpp" />
+    <ClCompile Include="seqList.cpp" />
+    <ClCompile Include="test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="seqList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

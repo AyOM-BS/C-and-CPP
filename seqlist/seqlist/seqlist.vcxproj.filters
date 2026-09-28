@@ -15,20 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="disappered number.cpp">
+    <ClCompile Include="seqList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="revolve array.cpp">
+    <ClCompile Include="test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="remove specific number.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="remove same number.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="pack array.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="seqList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
