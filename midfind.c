@@ -24,7 +24,7 @@ int main()
     }
     if (k == arr[mid])
     {
-        printf ("找到了,该数字在第%d个\n",mid);
+        printf ("找到了,该数字在第%d个\n",mid+1);
     }
     else
     {
