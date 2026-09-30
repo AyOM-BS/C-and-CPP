@@ -33,7 +33,7 @@
     <ClCompile Include="delete specific node.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="FileName.cpp">
+    <ClCompile Include="reverse linked list.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
