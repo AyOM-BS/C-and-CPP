@@ -101,13 +101,127 @@ void slist_popfront(SL** head)
 		*head = next;
 	}
 }
-void destroy(SL* head)
+SL* slist_find(SL* head, datatype val)
 {
 	SL* cur = head;
-	while (cur != NULL)
+	if (cur)
 	{
-		SL* next = cur->next;
-		free(cur);
-		cur = next;
+		while (cur->data != val)
+		{
+			cur = cur->next;
+		}
+		if (cur->data == val)
+		{
+			return cur;
+
+		}
+		else
+		{
+			printf("没有找到该数据\n");
+			return NULL;
+		}
+	}
+	else
+	{
+		printf("链表为空\n");
+		return NULL;
+	}
+	
+}
+void slist_insertfront(SL** head, datatype pos, datatype val)
+{
+	SL* p = slist_find(*head, pos);
+	if (p != NULL)
+	{
+		if (p == *head)
+		{
+			slist_pushfront(head, val);
+		}
+		else
+		{
+			SL* newnode = (SL*)malloc(sizeof(SL));
+			SL* prepos = *head;
+			while (prepos->next != p)
+			{
+				prepos = prepos->next;
+			}
+			newnode->data = val;
+			newnode->next = p;
+			prepos->next = newnode;
+		}
+	}
+	else
+	{
+		printf("没有找到该位置\n");
+	}
+}
+void slist_insertafter(SL** head, datatype pos, datatype val)
+{
+	SL* p = slist_find(*head, pos);
+	if (p != NULL)
+	{
+		SL* newnode = (SL*)malloc(sizeof(SL));
+		newnode->data = val;
+		newnode->next = p->next;
+		p->next = newnode;
+	}
+	else
+	{
+		printf("没有找到该位置\n");
+	}
+}
+void slist_erase(SL** head, datatype pos)
+{
+	SL* p = slist_find(*head, pos);
+	if (p == *head)
+	{
+		slist_popfront(head);
+	}
+	else
+	{
+		SL* prep = *head;
+		if (p)
+		{
+			while (prep->next != p)
+			{
+				prep = prep->next;
+			}
+			prep->next = p->next;
+			free(p);
+			p = prep->next->next;
+		}
+		else
+		{
+			printf("没有找到该位置\n");
+		}
+	}
+}
+//void slist_destroy(SL* head)
+//{
+//	SL* cur = head;
+//	while (cur != NULL)
+//	{
+//		SL* next = cur->next;
+//		free(cur);
+//		cur = next;
+//	}
+//}
+// 销毁了链表，但head指针仍然指向原来的地址，成为了野指针
+void slist_destroy(SL** head)
+{
+	if (*head == NULL)
+	{
+		printf("链表为空，无需销毁\n");
+	}
+	else
+	{
+		SL* cur = *head;
+		while (cur != NULL)
+		{
+			SL* next = cur->next;
+			free(cur);
+			cur = next;
+		}
+		*head = NULL;
 	}
 }

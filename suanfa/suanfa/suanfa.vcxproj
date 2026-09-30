@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="disappered number.cpp" />
+    <ClCompile Include="delete specific node.cpp" />
+    <ClCompile Include="FileName.cpp" />
     <ClCompile Include="pack array.cpp" />
     <ClCompile Include="remove same number.cpp" />
     <ClCompile Include="remove specific number.cpp" />
