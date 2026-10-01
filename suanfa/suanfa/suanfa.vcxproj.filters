@@ -33,7 +33,22 @@
     <ClCompile Include="delete specific node.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="reverse linked list.cpp">
+    <ClCompile Include="reverse linked list I.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse linked list II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="find middle node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="find kth to end.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="merge linked list.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linked list partition.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

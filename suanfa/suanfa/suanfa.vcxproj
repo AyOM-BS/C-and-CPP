@@ -141,10 +141,15 @@
   <ItemGroup>
     <ClCompile Include="disappered number.cpp" />
     <ClCompile Include="delete specific node.cpp" />
-    <ClCompile Include="reverse linked list.cpp" />
+    <ClCompile Include="find kth to end.cpp" />
+    <ClCompile Include="find middle node.cpp" />
+    <ClCompile Include="linked list partition.cpp" />
+    <ClCompile Include="merge linked list.cpp" />
+    <ClCompile Include="reverse linked list I.cpp" />
     <ClCompile Include="pack array.cpp" />
     <ClCompile Include="remove same number.cpp" />
     <ClCompile Include="remove specific number.cpp" />
+    <ClCompile Include="reverse linked list II.cpp" />
     <ClCompile Include="revolve array.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
