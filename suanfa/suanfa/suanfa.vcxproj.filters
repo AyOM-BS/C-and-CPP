@@ -51,5 +51,20 @@
     <ClCompile Include="linked list partition.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="palindrome linked list I.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="intersection in linked list.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="circular linked list I.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="circular linked list II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="copy linked list.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

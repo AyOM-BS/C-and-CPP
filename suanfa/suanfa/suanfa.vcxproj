@@ -139,12 +139,17 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="circular linked list II.cpp" />
+    <ClCompile Include="circular linked list I.cpp" />
+    <ClCompile Include="copy linked list.cpp" />
     <ClCompile Include="disappered number.cpp" />
     <ClCompile Include="delete specific node.cpp" />
+    <ClCompile Include="intersection in linked list.cpp" />
     <ClCompile Include="find kth to end.cpp" />
     <ClCompile Include="find middle node.cpp" />
     <ClCompile Include="linked list partition.cpp" />
     <ClCompile Include="merge linked list.cpp" />
+    <ClCompile Include="palindrome linked list I.cpp" />
     <ClCompile Include="reverse linked list I.cpp" />
     <ClCompile Include="pack array.cpp" />
     <ClCompile Include="remove same number.cpp" />
