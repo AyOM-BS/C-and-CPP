@@ -19,3 +19,4 @@ void slist_insertafter(SL** head, datatype pos, datatype val);// 在链表指定位置(
 void slist_erase(SL** head, datatype pos);// 删除链表指定位置的数据
 //void slist_destroy(SL* head);// 销毁链表，有野指针
 void slist_destroy(SL** head);// 销毁链表，没有野指针
+
