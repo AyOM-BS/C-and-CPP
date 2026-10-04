@@ -66,5 +66,11 @@
     <ClCompile Include="copy linked list.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="add tow linked lists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="valid bracket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

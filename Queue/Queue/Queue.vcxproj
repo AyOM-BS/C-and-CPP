@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bcb7b823-7a19-4425-9a78-4371027af0b9}</ProjectGuid>
-    <RootNamespace>suanfa</RootNamespace>
+    <ProjectGuid>{fa1d7ab3-89b5-4f92-80ff-c077fe47505c}</ProjectGuid>
+    <RootNamespace>Queue</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,25 +139,11 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="add tow linked lists.cpp" />
-    <ClCompile Include="circular linked list II.cpp" />
-    <ClCompile Include="circular linked list I.cpp" />
-    <ClCompile Include="copy linked list.cpp" />
-    <ClCompile Include="disappered number.cpp" />
-    <ClCompile Include="delete specific node.cpp" />
-    <ClCompile Include="intersection in linked list.cpp" />
-    <ClCompile Include="find kth to end.cpp" />
-    <ClCompile Include="find middle node.cpp" />
-    <ClCompile Include="linked list partition.cpp" />
-    <ClCompile Include="merge linked list.cpp" />
-    <ClCompile Include="palindrome linked list I.cpp" />
-    <ClCompile Include="reverse linked list I.cpp" />
-    <ClCompile Include="pack array.cpp" />
-    <ClCompile Include="remove same number.cpp" />
-    <ClCompile Include="remove specific number.cpp" />
-    <ClCompile Include="reverse linked list II.cpp" />
-    <ClCompile Include="revolve array.cpp" />
-    <ClCompile Include="valid bracket.cpp" />
+    <ClInclude Include="Queue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
