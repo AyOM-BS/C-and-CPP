@@ -142,6 +142,7 @@
     <ClCompile Include="add tow linked lists.cpp" />
     <ClCompile Include="circular linked list II.cpp" />
     <ClCompile Include="circular linked list I.cpp" />
+    <ClCompile Include="circular queue.cpp" />
     <ClCompile Include="copy linked list.cpp" />
     <ClCompile Include="disappered number.cpp" />
     <ClCompile Include="delete specific node.cpp" />
@@ -151,12 +152,14 @@
     <ClCompile Include="linked list partition.cpp" />
     <ClCompile Include="merge linked list.cpp" />
     <ClCompile Include="palindrome linked list I.cpp" />
+    <ClCompile Include="queue simulate stack.cpp" />
     <ClCompile Include="reverse linked list I.cpp" />
     <ClCompile Include="pack array.cpp" />
     <ClCompile Include="remove same number.cpp" />
     <ClCompile Include="remove specific number.cpp" />
     <ClCompile Include="reverse linked list II.cpp" />
     <ClCompile Include="revolve array.cpp" />
+    <ClCompile Include="stack simulate queue.cpp" />
     <ClCompile Include="valid bracket.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

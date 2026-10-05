@@ -17,4 +17,10 @@ typedef struct Queue
 }Q;
 
 void queue_init(Q* q);
+void queue_push(Q* q, datatype data);
+void queue_pop(Q* q);
+datatype queue_front(Q* q);
+datatype queue_back(Q* q);
+int queue_size(Q* q);
+bool queue_empty(Q* q);
 void queue_destroy(Q* q);

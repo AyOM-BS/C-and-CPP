@@ -72,5 +72,14 @@
     <ClCompile Include="valid bracket.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="queue simulate stack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stack simulate queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="circular queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
