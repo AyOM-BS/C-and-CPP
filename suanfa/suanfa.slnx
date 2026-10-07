@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="suanfa/suanfa.vcxproj" Id="bcb7b823-7a19-4425-9a78-4371027af0b9" />
-</Solution>

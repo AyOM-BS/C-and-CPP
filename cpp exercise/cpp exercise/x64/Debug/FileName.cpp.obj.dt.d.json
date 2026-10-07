@@ -127,8 +127,7 @@
             "c:\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\ctype.h",
             "e:\\visual studio\\vc\\tools\\msvc\\14.51.36231\\include\\clocale",
             "c:\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\locale.h",
-            "e:\\visual studio\\vc\\tools\\msvc\\14.51.36231\\include\\ostream",
-            "e:\\visual studio\\vc\\tools\\msvc\\14.51.36231\\include\\string"
+            "e:\\visual studio\\vc\\tools\\msvc\\14.51.36231\\include\\ostream"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
