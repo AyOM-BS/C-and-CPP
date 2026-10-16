@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="campany management/campany management.vcxproj" Id="5c8c9269-34a9-4217-ac86-d3e5bd3baad6" />
+</Solution>
