@@ -1,8 +1,24 @@
+# ---- 编辑器 / IDE ----
 .vs/
 **/.vs/
 .vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# ---- 构建产物 ----
 x64/
 Debug/
 Release/
-*.user
-*.suo
+*.exe
+*.obj
+*.o
+*.ilk
+*.pdb
+*.idb
+*.ipch
+*.tlog
+*.recipe
+*.lastbuildstate
+*.log
+*.db
