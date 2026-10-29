@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="SpeechCompetition/SpeechCompetition.vcxproj" Id="b55c6b6c-6aad-404d-85fb-a9389b026cc6" />
+</Solution>

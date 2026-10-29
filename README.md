@@ -36,6 +36,8 @@ Visual Studio 一个工程是一个文件夹、里面再套一层同名文件夹
 | `intimate array/` | 数组类模板 `MyArray.hpp`：`operator[]`、`operator=`、拷贝构造（深拷贝，内部 `new T[]`） |
 | `class template multiple file 1/` | 类模板分文件方案一：`person.cpp` 里写实现，`test.cpp` 用 `#include "person.cpp"` |
 | `class template multiple file 2/` | 类模板分文件方案二：实现直接写进 `person.hpp` |
+| `SpeechCompetition/` | 演讲比赛管理：`vector<Speaker>` + `shuffle` 随机分组、`sort` 配自定义仿函数（`compare.h` 里升／降两个重载），十个评委去最高最低取平均，结果追加写 `winner.csv` |
+| `StaffPartition/` | 职工分组：`multimap<int, staff>` 以工资取模做 key，`find` + `count` 与遍历判断两种取组写法对照 |
 | `cpp exercise/` | 日常练习：进制变换、评委打分、数字游戏、按年龄排序 |
 | `school work/` | 课程作业 |
 
